@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>To Do List</title>
+</head>
+<body>
+    <div class="backGround">
+    <nav>
+    </nav>
+    <div class="section_left">
+    </div>
+        <section>
+            <div class="todo_side">
+                <form id="todo-form">
+                    <p>To Do List</p>
+                    <input type="text" placeholder=" Add your new todo">
+                   
+                </form>
+                <ul id="todo-list"></ul>
+            </div>
+        </section>
+
+        <div>
+            <h1 id="clock" class="clock"></h1>
+        </div>
+
+        <div>
+            <form class="hidden" id="login-form" >
+                <input class="login-form" required maxlength="20" type="text" placeholder=" Enter your name"/>
+                <input class="enter" type="submit" value="Enter" />
+            </form>
+        </div>
+        <div>
+            <h1 id="greeting" class="hidden"></h1>
+        </div>
+
+    </div>
+
+</div>
+
+    <script src="js/clock.js"></script>
+    <script src="js/greeting.js"></script>
+    <script src="js/todo.js"></script>
+
+
+</body>
+</html>
